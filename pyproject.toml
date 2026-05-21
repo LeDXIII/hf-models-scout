@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hf-models-scout"
+version = "1.0.0"
+description = "Сбор и фильтрация интересных моделей с Hugging Face. Генерация HTML-отчётов с карточками моделей по категориям."
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.10"
+authors = [
+    {name = "HF Models Scout Contributors"}
+]
+keywords = ["huggingface", "models", "scout", "report", "llm", "vision", "ocr"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+
+dependencies = [
+    "requests>=2.28.0",
+    "jinja2>=3.1.0",
+]
+
+[project.scripts]
+hf-scout = "hf_models_scout.scout:main"
+
+[project.urls]
+"Homepage" = "https://github.com/user/hf-models-scout"
+"Bug Tracker" = "https://github.com/user/hf-models-scout/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
