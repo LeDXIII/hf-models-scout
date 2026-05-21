@@ -16,6 +16,9 @@
 * **Бейджи:** trending, verified, vision, dark horse, space
 * **Компактный HTML-отчёт** — один файл, никаких зависимостей для просмотра
 
+  <img width="1289" height="896" alt="image" src="https://github.com/user-attachments/assets/b13242b2-dff5-4331-b4e2-5eb9b53b00d9" />
+
+
 ##  Требования
 
 | | Минимум | Рекомендация |
@@ -142,6 +145,9 @@ A Hugging Face monitoring tool that collects new and trending models, filters by
 * **5 report tabs:** TOP, by downloads, by likes, dark horses, by categories
 * **Badges:** trending, verified, vision, dark horse, space
 * **Compact HTML report** — single file, no dependencies to view
+
+  <img width="1289" height="896" alt="image" src="https://github.com/user-attachments/assets/e64cdfec-77d1-4597-8eae-4e2c87694deb" />
+
 
 ### Requirements
 
